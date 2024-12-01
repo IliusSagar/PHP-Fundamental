@@ -1,10 +1,10 @@
 <?php 
 
 
-$brands = ['Apple', 'Microsoft', 'huawei'];
+function displayName(string $name, int $age){
 
 
-for($i = 1; $i <= 10; $i++){
-    echo $i;
+    echo "{$name} is {$age} years old";
 }
 
+displayName(name: "Code with iSagar", age: 27);
