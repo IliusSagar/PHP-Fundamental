@@ -3,13 +3,17 @@
 
 $username = "codewithisagar";
 
-if($username == "codewithisagar2"){
-    echo "{$username} exists";
-}elseif(strlen($username) < 25){
-    echo "Username is tooooo short";
-}elseif(strlen($username) < 15){
-    echo "Username is too short";
-}else{
-    echo "Username does not exits";
+switch($username){
+    case strlen($username) < 10:
+        echo "Username has less than 10 characters";
+        break;
+    case strlen($username) < 20:
+        echo "Username has less than 20 characters";
+        break;
+    case strlen($username) < 30:
+        echo "Username has less than 30 characters";
+        break;
+    default:
+        echo "You are using too many characters";
 }
 
