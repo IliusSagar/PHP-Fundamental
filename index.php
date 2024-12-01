@@ -1,7 +1,13 @@
 <?php 
 
-// Contstants
+// Arithmetic Operators
 
-define("APP_USER","Code With iSagar");
+$num1 = 10;
+$num2 = 4;
 
-var_dump(APP_USER);
+echo $num1 + $num2;
+echo $num1 - $num2;
+echo $num1 * $num2;
+echo $num1 / $num2;
+echo $num1 ** $num2;
+echo $num1 % $num2;
