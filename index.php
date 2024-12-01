@@ -1,14 +1,12 @@
 <?php 
 
 
-$username = "codewithisagar";
+$brands = ['Apple', 'Microsoft', 'huawei'];
 
-// if($username) {
-//     echo "Username is {$username}";
-// }else{
-//     echo "Username has not been set";
-// }
+foreach($brands as $brand){
+    echo $brand;
+    var_dump($brand);
+}
 
-echo $username ? "Username is {$username}" : "Username has not been set";
 
 
