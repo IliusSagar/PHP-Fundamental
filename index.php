@@ -1,10 +1,14 @@
-<?php 
+<?php declare(strict_types=1);
 
+$sentence = "This can't be used inside a function!";
 
-function displayName(string $name, int $age){
+function displayName(){
 
+    $sentence = "This will be used inside a function!";
 
-    echo "{$name} is {$age} years old";
+    echo $sentence;
 }
 
-displayName(name: "Code with iSagar", age: 27);
+echo $sentence;
+
+displayName();
