@@ -2,13 +2,13 @@
 
 $sentence = "This can't be used inside a function!";
 
-function displayName(){
+function displayName($sentence){
 
-    $sentence = "This will be used inside a function!";
+   
 
-    echo $sentence;
+    return $sentence;
 }
 
-echo $sentence;
 
-displayName();
+
+echo displayName($sentence);
