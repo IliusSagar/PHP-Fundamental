@@ -1,17 +1,9 @@
 <?php 
 
-// First Comment Line
+$name = "Code with iSagar";
 
-/*
+$myFirstname = "iSagar";
 
-    Commented
+$my_first_name = "iSagar";
 
-    Multiple
-
-    lines
-
-
-*/
-
-
-# The Sheel Comment
+$MyFirstName = "iSagar";
