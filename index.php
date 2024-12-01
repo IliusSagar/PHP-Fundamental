@@ -3,10 +3,16 @@
 
 $brands = ['Apple', 'Microsoft', 'huawei'];
 
-foreach($brands as $brand){
-    echo $brand;
-    var_dump($brand);
-}
 
+$i = 1;
+
+// while($i < 10){
+//     echo $i++;
+// }
+
+do{
+    echo $i++;
+    break;
+}while($i < 10);
 
 
