@@ -1,17 +1,15 @@
 <?php 
 
-// logical Operators
 
-$username = "isagar";
-$password = "1234";
+$username = "codewithisagar";
 
-if($username == "isagar" || $password == "1234"){
-    echo "Passed";
+if($username == "codewithisagar2"){
+    echo "{$username} exists";
+}elseif(strlen($username) < 25){
+    echo "Username is tooooo short";
+}elseif(strlen($username) < 15){
+    echo "Username is too short";
 }else{
-    echo "Failed";
+    echo "Username does not exits";
 }
-
-// var_dump(
-//     $username == "isagar" && $password == "1234"
-// );
 
