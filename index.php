@@ -1,7 +1,7 @@
 <?php 
 
-$user = "Code with iSagar";
+// Contstants
 
-$$user = "iLius";
+define("APP_USER","Code With iSagar");
 
-echo $user;
+var_dump(APP_USER);
